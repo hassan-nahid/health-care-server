@@ -10,5 +10,7 @@ export default {
     salt_round: process.env.SALT_ROUND,
     cloud_name: process.env.Cloud_name,
     api_key: process.env.Api_key,
-    api_secret: process.env.Api_secret
+    api_secret: process.env.Api_secret,
+    jwt_secret: process.env.JWT_SECRET,
+    jwt_refresh_secret: process.env.JWT_Refresh_SECRET
 }
