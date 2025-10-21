@@ -12,5 +12,6 @@ export default {
     api_key: process.env.Api_key,
     api_secret: process.env.Api_secret,
     jwt_secret: process.env.JWT_SECRET,
-    jwt_refresh_secret: process.env.JWT_Refresh_SECRET
+    jwt_refresh_secret: process.env.JWT_Refresh_SECRET,
+    openRouterApiKey: process.env.OPENROUTER_API_KEY
 }
