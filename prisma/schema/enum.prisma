@@ -7,9 +7,22 @@ enum UserRole {
 enum UserStatus {
     ACTIVE
     INACTIVE
+    DELETED
 }
 
 enum Gender {
     MALE
     FEMALE
+}
+
+enum AppointmentStatus {
+    SCHEDULED
+    INPROGRESS
+    COMPLETED
+    CANCEL
+}
+
+enum PaymentStatus {
+    PAID
+    UNPAID
 }
