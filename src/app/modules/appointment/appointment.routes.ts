@@ -16,7 +16,11 @@ router.post(
     auth(UserRole.PATIENT),
     AppointmentController.createAppointment
 )
-
+router.get(
+    '/',
+    auth(UserRole.ADMIN),
+    AppointmentController.getAllFromDB
+);
 router.patch(
     "/status/:id",
     auth(UserRole.ADMIN, UserRole.DOCTOR),
